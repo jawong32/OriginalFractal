@@ -3,13 +3,13 @@ boolean showColor = false;
 float x = 0, y = 0, z = 0;
 
 public void setup() {
-  size(900, 900, P3D);
+  size(800, 800, P3D);
   stroke(255);
 }
 
 public void draw() {
   background(0);
-  translate(450, 450);
+  translate(400, 450);
   rotateX(radians(x));
   rotateY(radians(y));
   rotateZ(radians(z));
